@@ -10,7 +10,7 @@ MYSQLPASSWORD=''
 SSHHOST=""
 SSHUSER=""
 SSHPASSWORD=""
-SSHPORT
+SSHPORT=""
 
 for i in $(mysql -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD -e 'show databases;'); do
 	banco="/home/felix/dumps/$i-$DATA.sql"
