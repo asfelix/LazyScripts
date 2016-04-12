@@ -11,7 +11,7 @@ SSHHOST=""
 SSHUSER=""
 SSHPASSWORD=""
 
-for i in $(mysql -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD -e 'show databases;'); do
+for i in $(mysql -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD -e 'show databases; |grep -v Database |grep -v information_schema'); do
 	file="/home/felix/dumps/$i-$DATA.sql"
 	DATABASE="$i"
 	mysqldump -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD $i > $file
