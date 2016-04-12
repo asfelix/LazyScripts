@@ -20,23 +20,40 @@ O primeiro ponto fará com que seja complicado para ele encontrar novas técnica
 Um bom programador sempre se perguntará “Por que?”, porque ele é burro (ou suspeita de um problema maior)metros sugeridos pra ele do que alguémpensa que pode estar causando o problema. Por exemplo, veja uma conversa típica de desenvolvedores web frente a um problema:
 
 >“Desde ontem, nosso cliente não consegue ver o logo no site.”
+
 >“Ele reiniciou o navegador?”
+
 >“Sim.”
+
 >“Ele reiniciou o computador?”
+
 >“Sim.”
+
 >“Limpou o cache?”
+
 >“Sim.”
+
 >“Ele roda o Internet Explorer 6?”
+
 >“Sim.”
+
 >“Tem certeza de que ele não consegue ver o logo?”
+
 >“Sim.”
+
 >“Ele olhou para o site na tela?”
+
 >“Como assim?”
+
 >“Talvez ele tenha visto o site impresso em papel.”
+
 >“Não, ele estava olhando para a tela.”
+
 >“Ele não consegue ver outras imagens também, ou só o logo?”
+
 “Como? Bom, vou perguntar pra ele.”
->Para fins de argumentação, vamos dizer que o cliente na verdade tenha desligado a exibição de imagens no navegador. Ou o seu filho desligou. Ou um funcionário desligou. Em qualquer caso, a resposta não poderia ser encontrada da “maneira inteligente“. Nenhuma das questões levantadas pelo programador exigiam algum talento em programação. Nenhuma. Mas simplesmente pelo motivo ser tão estúpido, somente a estupidez pode lidar com isso.
+
+Para fins de argumentação, vamos dizer que o cliente na verdade tenha desligado a exibição de imagens no navegador. Ou o seu filho desligou. Ou um funcionário desligou. Em qualquer caso, a resposta não poderia ser encontrada da “maneira inteligente“. Nenhuma das questões levantadas pelo programador exigiam algum talento em programação. Nenhuma. Mas simplesmente pelo motivo ser tão estúpido, somente a estupidez pode lidar com isso.
 
 Muitas vezes, a suposição de que alguma ação do programador gerou um problema não passa de uma suposição. Sempre que possível, ouça apenas os fatos antes de começar a debugar, e ignore o que as pessoas pensam que seja a razão do problema.
 
