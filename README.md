@@ -51,7 +51,7 @@ Um bom programador sempre se perguntará “Por que?”, porque ele é burro (ou
 
 >“Ele não consegue ver outras imagens também, ou só o logo?”
 
-“Como? Bom, vou perguntar pra ele.”
+>“Como? Bom, vou perguntar pra ele.”
 
 Para fins de argumentação, vamos dizer que o cliente na verdade tenha desligado a exibição de imagens no navegador. Ou o seu filho desligou. Ou um funcionário desligou. Em qualquer caso, a resposta não poderia ser encontrada da “maneira inteligente“. Nenhuma das questões levantadas pelo programador exigiam algum talento em programação. Nenhuma. Mas simplesmente pelo motivo ser tão estúpido, somente a estupidez pode lidar com isso.
 

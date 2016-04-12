@@ -1,15 +1,23 @@
 DATA=`/bin/date +%Y-%m-%d`
 
 # variáveis do MySQL
-HOST=""
-USER=""
-PASSWORD=''
+MYSQLHOST=""
+MYSQLUSER=""
+MYSQLPASSWORD=''
 #
 
-for i in $(mysql -h $HOST -u $USER -p$PASSWORD -e 'show databases;'); do
+# variáveis do SSH
+SSHHOST=""
+SSHUSER=""
+SSHPASSWORD=""
+SSHPORT
+
+for i in $(mysql -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD -e 'show databases;'); do
 	banco="/home/felix/dumps/$i-$DATA.sql"
 	DATABASE="$i"
-	mysqldump -h $HOST -u $USER -p$PASSWORD $i > $banco
+	mysqldump -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD $i > $banco
+	
+	sshpass -p $SSHPASSWORD scp -P $SSHPORT $banco $SSHUSER@$SSHHOST:/home/felix/Backups/
 
 	sleep 15;
 done
