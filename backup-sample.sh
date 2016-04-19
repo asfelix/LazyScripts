@@ -21,3 +21,5 @@ for i in $(mysql -h $MYSQLHOST -u $MYSQLUSER -p$MYSQLPASSWORD -e 'show databases
 	sshpass -p $SSHPASSWORD scp -P 64322 $file $SSHUSER@$SSHHOST:/home/felix/Backups/ ;
 
 done
+
+rm /home/felix/dumps/*.sql
